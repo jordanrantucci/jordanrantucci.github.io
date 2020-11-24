@@ -4,12 +4,12 @@ body {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 
   /* Visual */
-  background-image: url("../imgs/background.jpeg.jpg");
+  background-image: url("../imgs/congruent_pentagon.png");
   height: 100%;
   width: 100%;
   background-position: center;
-  background-repeat: none;
-  background-size: 100%;
+  background-repeat: repeat;
+  background-size:100%;
 }
 
 html {
@@ -46,11 +46,16 @@ main {
 
 /** linkedin image and link**/
 
-a:hover{
+#linkedin-icon:hover{
   -webkit-filter: invert(100%) !important;
 }
 
+#github-icon:hover{
+  -webkit-filter: invert(100%) !important;
+}
 
+#stack-overflow-icon:hover{
+  -webkit-filter: invert(100%) !important;
 }
 
 .block-header {
@@ -61,7 +66,7 @@ a:hover{
 }
 
 /* NAV START */
-#logo {
+#logo:hover{
   font-family: Georgia, Times, "Times New Roman", serif;
   
   /* Typography */
@@ -75,12 +80,18 @@ a:hover{
 
 /* override bootstrap hover color and border */
 .navbar-default .navbar-nav > li > a:hover {
-  color: #4aaaa5;
+  color: #012c2af1;
 }
 
 .navbar {
-  background: white;
+  background: rgba(7, 60, 206, 0.89);
   border: none;
+  color:black;
+}
+
+.nav-link:hover:hover {
+  background:rgb(172, 255, 153);
+  color:rgb(224, 4, 224);
 }
 
 /* media query for nav background color change */
@@ -195,7 +206,7 @@ a:hover{
   font-weight: lighter;
 
   /* Typography */
-  color: #fff;
+  color: rgb(19, 1, 1);
 
   /* Visual */
   background-color: #4aaaa5;

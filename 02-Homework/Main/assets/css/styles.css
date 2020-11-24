@@ -33,19 +33,29 @@ main {
 #about-me-text {
   font-family: 'ABeeZee', sans-serif;
   font-size: 18px;
+  color:rgb(221, 7, 7)
 }
 
 /* create styles for use for all white main boxes */
 .block {
-  background-color: #fff;
+  background-color: rgb(172, 255, 153);
 
   padding: 30px;
   margin-bottom: 30px;
 }
 
+/** linkedin image and link**/
+
+a:hover{
+  -webkit-filter: invert(100%) !important;
+}
+
+
+}
+
 .block-header {
   /* Typography */
-  color: #4aaaa5;
+  color: #2f74b4;
   font-family: Georgia, Times, "Times New Roman", serif;
   font-weight: bold;
 }
@@ -115,7 +125,7 @@ main {
   height: 60px;
 
   /* Visual */
-  background-color: #666;
+  background-color: rgb(21, 206, 181);
 }
 
 .text-muted-footer {
@@ -147,7 +157,7 @@ main {
   /* Typography */
   font-size: 32px;
   font-weight: bold;
-  color: #4aaaa5;
+  color: #0c00b3;
 }
 
 #about-image {

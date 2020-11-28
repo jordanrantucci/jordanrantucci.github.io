@@ -10,6 +10,7 @@ body {
   background-position: center;
   background-repeat: repeat;
   background-size:100%;
+  line-height: 1;
 }
 
 html {
@@ -30,10 +31,11 @@ main {
   width: 250px;
 }
 
-#about-me-text {
+
+.container {
   font-family: 'ABeeZee', sans-serif;
   font-size: 18px;
-  color:rgb(221, 7, 7)
+  color:rgb(221, 7, 7);
 }
 
 /* create styles for use for all white main boxes */
@@ -43,6 +45,7 @@ main {
   padding: 30px;
   margin-bottom: 30px;
 }
+
 
 /** linkedin image and link**/
 
@@ -57,6 +60,7 @@ main {
 #stack-overflow-icon:hover{
   -webkit-filter: invert(100%) !important;
 }
+
 
 .block-header {
   /* Typography */
@@ -100,6 +104,30 @@ main {
     background-color: #4aaaa5;
   }
 }
+
+@media only screen and (max-width: 330px) {
+  .container {
+    font-size:12px;
+  }
+  
+  .block-header {
+    font-size:18px;
+  }
+ 
+  #profile-image {
+    height: 150px;
+    width: 150px;
+    padding:5px;
+  }
+
+  #linkedin, #github, #stack-overflow {
+    height: 100px;
+    width: 100px;
+    padding: 5px;
+  }
+}
+
+
 /* END NAV */
 
 

@@ -29,6 +29,7 @@ main {
 #profile-image {
   height:250px;
   width: 250px;
+  padding:10px;
 }
 
 
@@ -69,6 +70,19 @@ main {
   font-weight: bold;
 }
 
+.social-header {
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  margin: auto;
+  padding: 8px;
+}
+
+#stack-overflow {
+  height:119px;
+  width:119px;
+}
+
 /* NAV START */
 #logo:hover{
   font-family: Georgia, Times, "Times New Roman", serif;
@@ -104,7 +118,7 @@ main {
     background-color: #4aaaa5;
   }
 }
-
+/* media query for text and images */
 @media only screen and (max-width: 330px) {
   .container {
     font-size:12px;
@@ -113,18 +127,30 @@ main {
   .block-header {
     font-size:18px;
   }
+
+  .social-header {
+    font-size:16px;
+  }
  
   #profile-image {
     height: 150px;
     width: 150px;
-    padding:5px;
+    padding:10px;
   }
 
-  #linkedin, #github, #stack-overflow {
+  #linkedin, #github {
     height: 100px;
     width: 100px;
     padding: 5px;
   }
+/*stack-overflow was seperated due to it having a slightly larger size */
+
+  #stack-overflow {
+    height: 94px;
+    width: 94px;
+    padding:5px;
+  }
+
 }
 
 

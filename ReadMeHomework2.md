@@ -10,10 +10,10 @@ To make this site accessible, the acceptance criteria needed to be met were the 
 
   Using Bootstrap, develop a portfolio with the following items:
 * A navbar
-* A responsive Layout
+* A Responsive Layout
 * Responsive Images
 
-The Bootstrap portfolio should minimise the use of media queries.  The website must be a functional deployed application.  The GitHub repository must contain a README describing the project.  The Navbar must be consistent on each page and have the ability to link to the Home/About, Contact and Portfolio pages.  All links must work and semantic html must be used. Each page must have valid and correct HTML and contain personal information and links to social media.  
+The Bootstrap portfolio should minimze the use of media queries.  The website must be a functional deployed application.  The GitHub repository must contain a README describing the project.  The Navbar must be consistent on each page and have the ability to link to the Home/About, Contact and Portfolio pages.  All links must work and semantic html must be used. Each page must have valid and correct HTML and contain personal information and links to social media.  
 	
 
 

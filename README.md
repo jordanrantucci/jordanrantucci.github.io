@@ -17,9 +17,9 @@ Deployed application link: (https://jordanrantucci.github.io/Portfolio/)
 
 The following image demonstrates the application functionality:
 
-<img src = "./Assets/Images/screenshots/portfolio_about.jpg">
-<img src = "./Assets/Images/screenshots/portfolio_contact.jpg">
-<img src = "./Assets/Images/screenshots/portfolio_portfolio.jpg">
+<img src = "./Assets/Images/Screenshots/portfolio_about.jpg">
+<img src = "./Assets/Images/Screenshots/portfolio_contact.jpg">
+<img src = "./Assets/Images/Screenshots/portfolio_portfolio.jpg">
 
 
 ## Table of Contents

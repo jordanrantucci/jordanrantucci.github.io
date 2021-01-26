@@ -35,13 +35,13 @@ main {
 
 .container {
   font-family: 'ABeeZee', sans-serif;
-  font-size: 18px;
+  font-size: 20px;
   color:rgb(221, 7, 7);
 }
 
 /* create styles for use for all white main boxes */
 .block {
-  background-color: rgb(172, 255, 153);
+  background-color: rgb(190 248 207 / 61%);
 
   padding: 30px;
   margin-bottom: 30px;

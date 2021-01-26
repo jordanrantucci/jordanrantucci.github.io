@@ -13,7 +13,7 @@ The portfolio is a simple page that contains links to all of the users platfroms
 The application contains a links to all of your professional profiles and highlights your skills and abilities.  The portfolio should be easy to read and does not cause strain to the eye.
 
 
-Deployed application link: (https://jordanrantucci.github.io/Project_1_Treasure_Trove/)
+Deployed application link: (https://jordanrantucci.github.io/Portfolio/)
 
 The following image demonstrates the application functionality:
 

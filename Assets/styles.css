@@ -112,6 +112,11 @@ main {
   color:rgb(224, 4, 224);
 }
 
+.information{
+  color: #2f74b4;
+  font-weight: bold;
+}
+
 /* media query for nav background color change */
 @media only screen and (max-width: 767px) {
   .navbar-header {

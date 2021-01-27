@@ -1,86 +1,64 @@
-# Unit 02 CSS and Bootstrap Homework: Responsive Portfolio
+# Portfolio
+Jordan's Portfolio
 
-Responsive design ensures that web applications render well on a variety of devices and window or screen sizes. As a developer, you will likely be asked to create a mobile-first application or add responsive design to an existing application. 
+This is a CWRU coding bootcamp Portfolio.  The Portfolio is a display of some of the highlighted works that has been developed in the bootcamp.
+
+## User Story
+
+The portfolio is a simple page that contains links to all of the users platfroms including LinkedIn and GitHub, as well as links to the displayed portfolio images.  The Portfolio is meant to be a highlight of the Creators skills and abilities.  The Portfolio contains works that display knowledge of HTML, CSS, JavaScript and APIs.
 
 
-## Directions
+## Acceptance Criteria
 
-First, you will use the Bootstrap CSS Framework to create a mobile responsive portfolio. How do you deliver this? Here are some guidelines:
+The application contains a links to all of your professional profiles and highlights your skills and abilities.  The portfolio should be easy to read and does not cause strain to the eye.
 
-* Create the following files files: `index.html`, `portfolio.html` and `contact.html`.
 
-* Using Bootstrap, develop your portfolio site with the following items:
+Deployed application link: (https://jordanrantucci.github.io/Portfolio/)
 
-   * A navbar
+The following image demonstrates the application functionality:
 
-   * A responsive layout
+<img src = "./Assets/Images/Screenshots/portfolio_about.jpg">
+<img src = "./Assets/Images/Screenshots/portfolio_contact.jpg">
+<img src = "./Assets/Images/Screenshots/portfolio_portfolio.jpg">
 
-   * Responsive images
 
-* The Bootstrap portfolio should minimize the use of media queries.
+## Table of Contents
 
-* Screenshots are provided as a reference in the `Assets/Images` folder. Your app does not need to be _exactly_ like the images. Use Bootstrap to create a similar, responsive layout.
+* [Installation](#installation)
+* [Usage](#usage)
+* [Credits](#credits)
+* [Contributing](#contributing)
+* [Tests](#tests)
+* [Future](#future)
 
-### Hints
 
-* Use Bootstrap's grid system (containers, rows, and columns).
+## Installation
 
-* On an `xs` screen, content should take up the entire screen. On `sm` and larger screens, you should have some margins on the left and right sides of the screen. Check out various sites on your mobile device vs. your computer to see examples of these differences.
+No installation is needed for this project.
 
-* Use an HTML validation service to ensure that each page has valid HTML.
 
-### Minimum Requirements
+## Usage 
 
-* Functional, deployed application
+Download the code and open to view using your favorite browser, or click the link above to view the deployed site.
 
-* GitHub repository with README describing the project
 
-* Navbar must be consistent on each page.
+## Credits
 
-* Navbar on each page must contain links to Home/About, Contact, and Portfolio pages.
+All Code was created from scratch by  Jordan Rantucci
 
-* All links must work.
 
-* Must use semantic html.
+## Contributing
 
-* Each page must have valid and correct HTML. (use a validation service)
+Contributions in the form of suggestions or feedback are appreciated.
 
-* Must contain your personalized information. (bio, name, images, links to social media, etc.)
 
-* Must properly utilize Bootstrap components and grid system.
+## Tests
 
-### Bonus
+There are no tests for this project.
 
-* Using Bootstrap, make a sticky footer and use sub-rows and sub-columns on your portfolio site (**Hint:** Check out the Bootstrap documentation).
+## Future 
 
-## Commit Early and Often
+Would like to continue to update with more advanced displays of coding ability.  I would like to make the display cleaner and more modern yet still have a resemblance of me. 
 
-One of the most important skills to master as a web developer is version control. Building the habit of committing via Git is important for two reasons:
+---
 
-* Your commit history is a signal to employers that you are actively working on projects and learning new skills.
-
-* Your commit history allows you to revert your codebase in the event that you need to return to a previous state.
-
-Follow these guidelines for committing:
-
-* Make single-purpose commits for related changes to ensure a clean, manageable history. If you are fixing two issues, make two commits.
-
-* Write descriptive, meaningful commit messages so that you and anyone else looking at your repository can easily understand its history.
-
-* Don't commit half-done work, for the sake of your collaborators (and your future self!).
-
-* Test your application before you commit to ensure functionality at every step in the development process.
-
-We would like you to have well over 200 commits by graduation, so commit early and often!
-
-## Submission on BCS
-
-You are required to submit the following:
-
-* The URLs of the deployed applications
-
-* The URLs of the GitHub repositories
-
-- - -
-
-© 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.

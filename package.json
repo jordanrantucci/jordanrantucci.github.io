@@ -1,0 +1,23 @@
+{
+  "name": "Portfolio",
+  "version": "1.0.0",
+  "description": "Jordan's Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jordanrantucci/Portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jordanrantucci/Portfolio/issues"
+  },
+  "homepage": "https://github.com/jordanrantucci/Portfolio#readme",
+  "dependencies": {
+    "swup": "^2.0.14"
+  }
+}

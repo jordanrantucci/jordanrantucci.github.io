@@ -26,6 +26,8 @@ main {
   margin: 80px 0;
 }
 
+
+
 #profile-image {
   height:250px;
   width: 250px;
@@ -37,6 +39,25 @@ main {
   font-family: 'ABeeZee', sans-serif;
   font-size: 20px;
   color:rgb(221, 7, 7);
+}
+
+/* Transitions */
+.transition-fade {
+  opacity:1;
+  transition: 500ms;
+  transform: translateX(0);
+  transform-origin: left;
+}
+
+html.is-animating .transition-fade {
+  opacity: 1;
+  transform: translateX(100%);
+
+}
+
+html.is-leaving .transition-fade {
+  opacity:0;
+  transform: translateX(0);
 }
 
 /* create styles for use for all white main boxes */

@@ -6,6 +6,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script defer src="node_modules/swup/dist/swup.min.js"></script>
+  <script defer src ="script.js"></script>
 
   <title>Bootstrap Basic Portfolio</title>
 
@@ -17,7 +19,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 
   <!-- Our own CSS stylesheet -->
-  <link rel="stylesheet" href="Assets/styles.css" media="screen">
+  <link rel="stylesheet" href="Assets/styles.css">
 
   <!--Google Font Styles-->
   <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -29,7 +31,7 @@
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container">
       <!-- Brand and toggle get grouped for better mobile display -->
-      <a class="navbar-brand" href="index.html" id="logo">Jordan Rantucci</a>
+      <a class="navbar-brand" href="/index.html" id="logo">Jordan Rantucci</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
         aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -38,13 +40,13 @@
       <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
         <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
           <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
+            <a class="nav-link" href="/contact.html">Contact</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="portfolio.html">Portfolio</a>
+            <a class="nav-link" href="/portfolio.html">Portfolio</a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="index.html">About</a>
+            <a class="nav-link" href="/index.html">About</a>
           </li>
         </ul>
       </div>
@@ -55,7 +57,7 @@
   <!-- End of navbar -->
 
   <!-- Start of container -->
-  <main class="container">
+  <main id="swup" class="container transition-fade">
     <section class="row">
       <div class="col-md-8">
         <article class="block">

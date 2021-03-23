@@ -5,7 +5,7 @@ This is a CWRU coding bootcamp Portfolio.  The Portfolio is a display of some of
 
 ## User Story
 
-The portfolio is a simple page that contains links to all of the users platfroms including LinkedIn and GitHub, as well as links to the displayed portfolio images.  The Portfolio is meant to be a highlight of the Creators skills and abilities.  The Portfolio contains works that display knowledge of HTML, CSS, JavaScript and APIs.
+The portfolio is a simple page that contains links to all of the users platfroms including LinkedIn and GitHub, as well as links to the displayed portfolio images.  The Portfolio is meant to be a highlight of the Creators skills and abilities.  The Portfolio contains works that display knowledge of becoming a Full Stack Developer.  Throughout the cohort I have learned HTML,CSS,JavaScript as API INteraction, Node.js, MySQL and Mongo. 
 
 
 ## Acceptance Criteria

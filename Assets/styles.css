@@ -29,7 +29,6 @@ main {
 
 
 #profile-image {
-  height:250px;
   width: 250px;
   padding:10px;
 }
@@ -159,7 +158,6 @@ html.is-leaving .transition-fade {
   }
  
   #profile-image {
-    height: 150px;
     width: 150px;
     padding:10px;
   }
